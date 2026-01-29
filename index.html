@@ -1,11 +1,23 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <title>My Portfolio</title>
-</head>
-<body>
-    <h1>こんにちは、ポートフォリオサイトへようこそ！</h1>
-    <p>これからここを充実させていきます。</p>
-</body>
-</html>
+<div class="filter-buttons">
+  <button onclick="filterSelection('all')">すべて</button>
+  <button onclick="filterSelection('touyo')">東予（今治・新居浜など）</button>
+  <button onclick="filterSelection('chuyo')">中予（松山・伊予など）</button>
+  <button onclick="filterSelection('nanyo')">南予（宇和島・大洲など）</button>
+</div>
+
+<div class="container">
+  <div class="card touyo">
+    <h3>しまなみ海道</h3>
+    <p>サイクリストの聖地として知られる絶景スポットです。</p>
+  </div>
+  
+  <div class="card chuyo">
+    <h3>道後温泉本館</h3>
+    <p>2024年7月に全館営業再開した、日本最古といわれる温泉です。</p>
+  </div>
+  
+  <div class="card nanyo">
+    <h3>宇和島鯛めし</h3>
+    <p>新鮮な鯛の刺身をタレと卵でいただく絶品グルメです。</p>
+  </div>
+</div>
